@@ -27,7 +27,7 @@ public interface MyQueue<T> {
     //삭제없이 요소를 읽어온다
     //비어있을 경우 null을 반환
 
-    boolean queuelsEmpty();
+    boolean queueIsEmpty();
     //큐 안이 비었는지 판단하는 함수
     boolean queueIsFull();
     //배열의 최대크기를 벗어나면 안되기에 큐에 더이상 들어갈 공간이 없는지 판단하는 함수
